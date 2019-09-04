@@ -1,0 +1,8 @@
+.idea/
+vendor/
+.env
+.env.testing
+letsgo
+log/letsgo.log
+tmp/
+tests/log

@@ -1,0 +1,16 @@
+language: go
+
+go:
+  - 1.11.x
+
+services:
+  - mongodb
+
+git:
+  depth: 1
+
+before_script:
+  - cp .env.example .env
+  - cp .env.example .env.testing
+script:
+  - go test ./tests/main_test.go
