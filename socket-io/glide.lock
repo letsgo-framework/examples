@@ -1,5 +1,5 @@
-hash: 306a0df5f4c614e4ba0e3f368954516cee9aa263657bac9c9339a95439e6a1fb
-updated: 2019-09-04T15:45:31.239130108+05:30
+hash: 7a0b4e9f2022e1319d5a5c4742f5559d9f45eb75834144e8a587aa2e5bcbd84d
+updated: 2019-09-10T12:30:38.952157101+05:30
 imports:
 - name: github.com/dgrijalva/jwt-go
   version: 3af4c746e1c248ee8491a3e0c6f7a9cd831e95f8
@@ -44,6 +44,8 @@ imports:
   version: 23d116af351c84513e1946b527c88823e476be13
 - name: github.com/json-iterator/go
   version: 0ff49de124c6f76f8494e194af75bde0f1a49a29
+- name: github.com/MathCody/go-socket.io
+  version: 0d4106497b99c18f324658c06e14056e53bf05e1
 - name: github.com/mattn/go-colorable
   version: 8029fb3788e5a4a9c00e415f586a6d033f5d38b3
 - name: github.com/mattn/go-isatty

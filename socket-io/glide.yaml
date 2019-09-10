@@ -21,7 +21,7 @@ import:
   version: ~0.1.1
 - package: github.com/robfig/cron
   version: ~3.0.0
-- package: github.com/googollee/go-socket.io
-  version: ~1.4.2
 - package: github.com/rs/cors
   version: ~1.7.0
+- package: github.com/MathCody/go-socket.io
+  version: ~1.4.4

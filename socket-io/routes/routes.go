@@ -13,13 +13,9 @@ package routes
 import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
-	socketio "github.com/googollee/go-socket.io"
 	"github.com/letsgo-framework/examples/socket-io/controllers"
 	"time"
 )
-
-var SocketioServer *socketio.Server
-
 
 // PaveRoutes sets up all api routes
 func PaveRoutes() *gin.Engine {

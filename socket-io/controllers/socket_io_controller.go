@@ -6,11 +6,9 @@ import (
 	"github.com/letsgo-framework/examples/socket-io/log"
 )
 
+var SocketServer, _ = socketio.NewServer(nil)
+
 func SocketHandler ( c  * gin.Context ) {
-	SocketServer, err := socketio.NewServer(nil)
-	if  err != nil  {
-		panic ( err )
-	}
 	SocketServer.OnConnect("/", func(s socketio.Conn) error {
 		s.SetContext("")
 		log.Debug("connected: %s", s.ID())
